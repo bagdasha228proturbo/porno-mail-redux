@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 3fr;
+}
+
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 0, 234);
+    transition: transform 5s;
+}
+
+.card img {
+    width: 100%;
+}
+.card a {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+/* @media (max-width: 1200px) {
+    .content {
+        grid-template-columns: repeat(4, 1fr);
+    }
+} */
