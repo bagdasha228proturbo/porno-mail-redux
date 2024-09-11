@@ -1,16 +1,15 @@
-/* .mein {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
+.navbar-nav .nav-link.active {
+    color: aliceblue
+} 
+
+.navbar-nav .nav-link {
+    color: rgb(75, 75, 75);
 }
 
-.left-bar {
-    grid-column: 1/3;
+.navbar-brand img{
+    width: 45px;;
 }
 
-.content {
-    grid-column: 3/11;
+.navbar-toggler {
+    background-color: rgb(75, 75, 75);
 }
-
-.right-bar {
-    grid-column: 11/13;
-} */
